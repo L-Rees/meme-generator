@@ -2,11 +2,12 @@ import React from 'react'
 const PreviewPane = ( {image, topText, bottomText}) => {
    
     return (
-    <div>
-        <p>{topText}</p>
-       <img src={image}></img>
-       <p>{bottomText}</p>
-    </div>)
+    <div className="preview-container">
+        <img className="preview-image" src={image}></img>
+        <div className="topText">{topText}</div>
+        <div className="bottomText">{bottomText}</div>
+    </div>
+    )
 }
 
 
