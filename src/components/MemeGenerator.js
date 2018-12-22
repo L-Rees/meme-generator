@@ -20,14 +20,15 @@ const MemeGenerator = (props) => {
                     image = {props.image}
                     topText= {props.topText}
                     bottomText = {props.bottomText}
+                    meme = {props.meme}
                 />
-
                 </div>
     
                 <div className="inputs">
                 <Inputs
                     setBottomText = {props.setBottomText}
                     setTopText = {props.setTopText}
+                    saveImage = {props.saveImage}
                 />
                 </div>
             </div>

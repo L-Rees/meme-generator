@@ -1,13 +1,12 @@
 import React from 'react'
-const Inputs = ( {setTopText, setBottomText}) => {
+
+const Inputs = ( {setTopText, setBottomText, saveImage}) => {
    
     return (
-    <div>
-       <form>
-           <input type="text" onChange={setTopText}></input>
-           <input type="text" onChange ={setBottomText}></input>
-           
-       </form>
+    <div className="inputContainer">
+        <input className="topInput" type="text" onChange={setTopText} placeholder="Upper Hilarity"></input>
+        <input className="bottomInput" type="text" onChange ={setBottomText} placeholder="Lower Wittiness"></input>
+        <button onClick={saveImage}>Save This Meme</button> 
     </div>)
 }
 
