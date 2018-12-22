@@ -3,7 +3,7 @@ const PreviewPane = ( {image, topText, bottomText}) => {
    
     return (
     <div id="preview-container">
-        <img className="preview-image" src={image} alt="something amazing"></img>
+        <img className="preview-image" src={image} alt="Your Meme Here"></img>
         <div className="topText">{topText}</div>
         <div className="bottomText">{bottomText}</div>
     </div>
