@@ -15,7 +15,7 @@ const MemeGenerator = (props) => {
             </div>
         
             <div className="previewAndInput">
-                <div className="preview">
+                <div id="preview">
                 <PreviewPane
                     image = {props.image}
                     topText= {props.topText}
