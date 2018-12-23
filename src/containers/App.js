@@ -10,7 +10,7 @@ class App extends Component {
     const bottomText = ""
   
 
-    this.state = { image: "", images, topText, bottomText };
+    this.state = { image: "./images/default.jpeg", images, topText, bottomText };
   }
 
   selectImage = (event) => {
